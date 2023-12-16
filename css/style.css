@@ -1,0 +1,174 @@
+body {
+	background-image: url("https://services.meteored.com/img/article/planeta-no-limite-recordes-de-temperatura-no-mar-e-na-terra-acendem-novo-alerta-1688410888041_1024.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  	margin: 30px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.degrade{
+	background-image: linear-gradient(110deg, rgba(13, 235, 68, 0.637), rgba(230, 106, 23, 0.623));
+	opacity: 80%;
+	height:90vh;
+	color: white;
+	font-family:aladin;
+	text-align:center;
+	border-radius: 10px;
+}
+
+#container {
+	position:absolute;
+	width:400px;
+	height:400px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.815);
+	top: 45%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:10px;
+	font-size: larger;
+}
+
+.input-label {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.custom-input {
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	width: 200px;
+	height: 30px;
+}
+
+#result {
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 95px;
+}
+
+button {
+	padding: 8px 16px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #4CAF50; /* Cor padrão do botão */
+	color: #fff; /* Cor do texto do botão */
+	transition: background-color 0.3s;
+	font-size: large;
+	width: 200px;
+}
+
+button:hover {
+	background-color: #45a0497a; /* Cor do botão ao passar o mouse */
+}
+
+footer {
+	border-bottom-right-radius:10px;/*Valor do raio do arredondamento baixo direita*/
+	border-bottom-left-radius:10px;/*Valor do raio do arredondamento baixo esquerda*/
+    background-color: rgb(0,0,0.8);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center; 
+    overflow: hidden;
+	margin-top: 550px;	
+}
+
+a:visited,a {
+    color: darkgrey;
+}
+
+.outer-container {
+	border-top-right-radius:10px;/*Valor do raio do arredondamento cima direita*/
+	border-top-left-radius:10px;/*Valor do raio do arredondamento cima esquerda*/
+	margin: 0 auto;
+	text-align:center;
+    background: rgb(31, 31, 31); /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+	margin: 0 auto;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: green; /* Ou a cor desejada para o hover */
+}
+
+
+/*
+h2 {
+  color: #333;
+}
+
+.outer-container{
+	background: rgb(31, 31, 31); 
+    padding: 20px; 
+	border-radius: 10px;  
+    overflow: hidden; 
+}
+
+button {
+	width: 150px;
+    height: 30px;
+	font-size: 15px;
+	background-color:rgb(31, 31, 31);
+	border:none;
+	color:white;
+	margin:3px;
+}
+
+button:hover {
+  background-color:black;
+  color: white;
+}
+
+	
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+.conversorMoedas{
+	position:absolute;
+	background-color: rgb(0,0,0.8);
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:15px;
+}
+
+.result-container{
+	margin-top: 10px;
+	/*background-color: #f2f2f2;
+	padding: 0px;
+	border-radius: 5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align:center !important;
+}
+*/
